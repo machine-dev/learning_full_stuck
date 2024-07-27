@@ -1,0 +1,71 @@
+body {
+    font-family: Helvetica;
+}
+
+.title {
+    position: relative;
+    text-align: center;
+}
+.header-image {
+    position: relative;
+    width: 100%;
+    height: 250px; /* 固定の高さを設定 */
+    overflow: hidden; /* 画像がはみ出さないように */
+    padding: 0 20px;
+}
+
+.header-image img {
+    width: 100%;
+    height: 120px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-image h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* text-align: center; */
+    transform: translate(-50%, -50%);
+    font-size: 80px; /* フォントサイズを 100px に設定 */
+    font-weight: bold;
+    color: khaki;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap; /* 折り返しを防ぐ */
+    /* background-color: rgba(0, 0, 0, 0.5); 背景に半透明の黒を追加して見やすくする */
+    padding: 0 20px;
+}
+
+.section {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.content {
+    font-family: Helvetica;
+    font-weight: bold;
+    color: blue;
+    
+}
+
+.price {
+    color: blue;
+}
+
+.brushes {
+    background-color: mediumspringgreen;
+}
+
+.frames {
+    background-color: lightcoral;
+}
+
+.paint {
+    background-color: skyblue;
+}
